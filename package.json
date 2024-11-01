@@ -1,0 +1,28 @@
+{
+  "name": "masterclass-automatizacao-nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tsx watch src/index.ts"
+  },
+  "keywords": [],
+  "author": "Jessica Medeiros",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "@types/node-schedule": "^2.1.7",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "axios": "^1.7.7", 
+    "csv-parser": "^3.0.0",
+    "date-fns": "^4.1.0",
+    "dotenv": "^16.4.5",
+    "fs": "^0.0.1-security",
+    "node-schedule": "^2.1.1",
+    "twilio": "^5.3.3",
+    "zod": "^3.23.8"
+  }
+}
